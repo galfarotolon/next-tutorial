@@ -5,6 +5,7 @@ import Meta from './Meta'
 
 import styles from '../styles/Layout.module.css'
 
+//pass in articles as children to render 
 const Layout = ({ children }) => {
     console.log(children);
     return (
