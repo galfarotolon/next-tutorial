@@ -12,7 +12,7 @@ const Meta = ({ title, keywords, description }) => {
         </Head>
     )
 }
-
+//set default props for when there are any
 Meta.defaultProps = {
     title: 'WebDev Newz',
     keywords: 'web development, programming',
