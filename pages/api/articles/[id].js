@@ -1,5 +1,7 @@
 import { articles } from '../../../data.js'
 
+//handler for each individual article
+
 export default function handler({ query: { id } }, res) {
 
     const filtered = articles.filter(article => article.id === id)
