@@ -1,6 +1,5 @@
 import { articles } from '../../../data.js'
 
-//handler for each individual article
 
 export default function handler({ query: { id } }, res) {
 
