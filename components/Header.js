@@ -1,7 +1,6 @@
 import React from 'react'
 import headerStyles from '../styles/Header.module.css'
 
-//same header across all pages
 const Header = () => {
     return (
         <div>
