@@ -1,6 +1,6 @@
 import React from 'react'
 import headerStyles from '../styles/Header.module.css'
-
+//this will render title and desc of each page
 const Header = () => {
     return (
         <div>
