@@ -1,5 +1,6 @@
 import Head from 'next/head'
 
+//check meta 
 const Meta = ({ title, keywords, description }) => {
     return (
         <Head>
