@@ -1,6 +1,6 @@
 
 import Meta from '../components/Meta'
-
+//about meta title
 const about = () => {
     return (
         <div>
