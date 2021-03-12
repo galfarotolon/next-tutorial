@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-//check meta 
+//check custom meta for each page
 const Meta = ({ title, keywords, description }) => {
     return (
         <Head>
