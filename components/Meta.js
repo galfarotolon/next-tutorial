@@ -13,7 +13,8 @@ const Meta = ({ title, keywords, description }) => {
         </Head>
     )
 }
-//set default props for when there are any
+//set default props for when there are any, pass as prop to change
+// dynamically per page
 Meta.defaultProps = {
     title: 'WebDev Newz',
     keywords: 'web development, programming',
