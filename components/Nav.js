@@ -3,7 +3,6 @@ import Link from 'next/link'
 import navStyles from '../styles/Nav.module.css'
 
 //render simple nav bar with few pages
-//next link substitutes react-router-dom
 const Nav = () => {
     return (
         <nav className={navStyles.nav}>
